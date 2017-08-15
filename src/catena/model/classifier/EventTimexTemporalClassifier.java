@@ -401,7 +401,10 @@ public class EventTimexTemporalClassifier extends PairClassifier {
 				File modelFile = new File(modelPath);
 				Model model = Model.load(modelFile);
 				for (Feature[] instance : instances) {
-					predictionLabels.add(relTypes[(int)Linear.predict(model, instance)-1]);
+					double[] probs = new double[model.getNrClass()];
+					double tmp = Linear.predictProbability(model, instance, probs);
+					predictionLabels.add(relTypes[(int)tmp-1]);
+					//predictionLabels.add(relTypes[(int)Linear.predict(model, instance)-1]);
 				}
 			}
 		}
