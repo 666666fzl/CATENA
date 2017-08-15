@@ -337,7 +337,12 @@ public class EventEventCausalClassifier extends PairClassifier {
 				File modelFile = new File(modelPath);
 				Model model = Model.load(modelFile);
 				for (Feature[] instance : instances) {
-					predictionLabels.add(relTypes[(int)Linear.predict(model, instance)-1]);
+					double[] probs = new double[model.getNrClass()];
+					double tmp = Linear.predictProbability(model, instance, probs);
+					/*if(tmp!=3)
+						System.out.println();
+					double tmp = Linear.predict(model, instance);*/
+					predictionLabels.add(relTypes[(int)tmp-1]);
 				}
 			}
 		}
