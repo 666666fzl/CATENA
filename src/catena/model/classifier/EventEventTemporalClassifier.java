@@ -367,10 +367,13 @@ public class EventEventTemporalClassifier extends PairClassifier {
 				File modelFile = new File(modelPath);
 				Model model = Model.load(modelFile);
 				for (Feature[] instance : instances) {
-					double[] probs = new double[model.getNrClass()];
-					double tmp = Linear.predictProbability(model, instance, probs);
-					predictionLabels.add(relTypes[(int)tmp-1]);
-					//predictionLabels.add(relTypes[(int)Linear.predict(model, instance)-1]);
+					if(model.isProbabilityModel()) {
+						double[] probs = new double[model.getNrClass()];
+						double tmp = Linear.predictProbability(model, instance, probs);
+						predictionLabels.add(relTypes[(int) tmp - 1]);
+					}
+					else
+						predictionLabels.add(relTypes[(int)Linear.predict(model, instance)-1]);
 				}
 			}
 		}
