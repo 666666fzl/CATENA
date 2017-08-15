@@ -14,7 +14,7 @@ public class TestCatena {
 
 public static void main(String[] args) throws Exception {
 		
-		String task = "tbdense";
+		String task = "te3";
 		boolean colFilesAvailable = true;
 		boolean train = true;
 		
