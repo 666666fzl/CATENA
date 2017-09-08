@@ -1,0 +1,379 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>PRI19980306.2000.1675</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-03-06" temporalFunction="false" functionInDocument="CREATION_TIME">19980306</TIMEX3></DCT>
+
+<EXTRAINFO>
+PRI19980306.2000.1675 NEWS STORY
+</EXTRAINFO>
+
+<TEXT>
+For The World, this is Pamela McCall in the BBC news room in London. More heavy <EVENT eid="e20" class="OCCURRENCE">gunfire</EVENT> in the Serbian province of Kosovo. It's <TIMEX3 tid="t31" type="DATE" value="1998-03-06" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">the second day</TIMEX3> of an <EVENT eid="e21" class="OCCURRENCE">offensive</EVENT> by the security forces against villages populated by ethnic Albanians. BBC correspondent Karyn Coleman <EVENT eid="e22" class="REPORTING">reports</EVENT> from Kosovo.
+
+There were more accounts of people <EVENT eid="e3" class="OCCURRENCE">fleeing</EVENT> from the villages near where the offensive was <EVENT eid="e5" class="OCCURRENCE">taking</EVENT> place. They were too <EVENT eid="e24" class="I_STATE">afraid</EVENT> to <EVENT eid="e6" class="I_STATE">stay</EVENT>, <EVENT eid="e7" class="I_STATE">fearing</EVENT> the forces may also <EVENT eid="e8" class="ASPECTUAL">move</EVENT> their <EVENT eid="e25" class="OCCURRENCE">operations</EVENT> further afield. By <TIMEX3 tid="t18" type="TIME" value="1998-03-06TAF" mod="MID" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">mid afternoon</TIMEX3>, official Serb sources were <EVENT eid="e10" class="REPORTING">saying</EVENT> the <EVENT eid="e30" class="OCCURRENCE">operation</EVENT> was over, but that has not yet been <EVENT eid="e11" class="REPORTING">confirmed</EVENT> from Belgrade, the capital of Serbia, which is where the whole <EVENT eid="e27" class="OCCURRENCE">attack</EVENT> is <EVENT eid="e13" class="I_STATE">thought</EVENT> to have been <EVENT eid="e14" class="I_STATE">planned</EVENT>. The ethnic Albanians here in Kosovo are considerably <EVENT eid="e32" class="I_STATE">worried</EVENT> about <TIMEX3 tid="t19" type="DATE" value="FUTURE_REF" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">the future</TIMEX3> and <EVENT eid="e35" class="I_STATE">fear</EVENT> they are <EVENT eid="e16" class="PERCEPTION">witnessing</EVENT> the <EVENT eid="e36" class="ASPECTUAL">beginnings</EVENT> of a much wider <EVENT eid="e37" class="OCCURRENCE">conflict</EVENT>. Karyn Coleman, BBC news, Pristina.
+</TEXT>
+
+<MAKEINSTANCE eventID="e20" eiid="ei194" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e21" eiid="ei195" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e22" eiid="ei196" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e3" eiid="ei198" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e5" eiid="ei200" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e24" eiid="ei201" tense="PAST" aspect="NONE" polarity="POS" pos="ADJECTIVE" />
+<MAKEINSTANCE eventID="e6" eiid="ei202" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e7" eiid="ei203" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e8" eiid="ei204" tense="NONE" aspect="NONE" polarity="POS" pos="VERB" modality="may" />
+<MAKEINSTANCE eventID="e25" eiid="ei205" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e10" eiid="ei206" tense="PAST" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e30" eiid="ei207" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e11" eiid="ei209" tense="PRESENT" aspect="PERFECTIVE" polarity="NEG" pos="VERB" />
+<MAKEINSTANCE eventID="e27" eiid="ei210" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e13" eiid="ei211" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e14" eiid="ei212" tense="PASTPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e32" eiid="ei213" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e35" eiid="ei214" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e16" eiid="ei215" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e36" eiid="ei216" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e37" eiid="ei217" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+
+<TLINK eventInstanceID="ei209" lid="l290" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei206" lid="l291" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei213" lid="l292" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei215" lid="l293" relType="INCLUDES" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei201" lid="l294" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei195" lid="l295" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei217" lid="l296" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei198" lid="l297" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei196" lid="l298" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei214" lid="l299" relType="INCLUDES" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei200" lid="l300" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei205" lid="l301" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei204" lid="l302" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei212" lid="l303" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei211" lid="l304" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei210" lid="l305" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei203" lid="l306" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei194" lid="l307" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei202" lid="l308" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei207" lid="l309" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei216" lid="l310" relType="VAGUE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei215" lid="l781" relType="INCLUDES" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei215" lid="l782" relType="INCLUDES" relatedToTime="t31"/>
+
+<TLINK eventInstanceID="ei209" lid="l783" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei209" lid="l784" relType="IS_INCLUDED" relatedToTime="t31"/>
+
+<TLINK eventInstanceID="ei206" lid="l785" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei206" lid="l786" relType="IS_INCLUDED" relatedToTime="t31"/>
+
+<TLINK eventInstanceID="ei209" lid="l787" relType="IS_INCLUDED" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei206" lid="l788" relType="IS_INCLUDED" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei215" lid="l789" relType="VAGUE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei205" lid="l790" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei213" lid="l791" relType="VAGUE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei203" lid="l792" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei211" lid="l793" relType="VAGUE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei217" lid="l794" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei214" lid="l795" relType="VAGUE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei216" lid="l796" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei195" lid="l797" relType="IS_INCLUDED" relatedToTime="t31"/>
+
+<TLINK eventInstanceID="ei201" lid="l798" relType="AFTER" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei196" lid="l799" relType="VAGUE" relatedToTime="t31"/>
+
+<TLINK eventInstanceID="ei207" lid="l800" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei202" lid="l801" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei212" lid="l802" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei212" lid="l803" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei211" lid="l804" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei213" lid="l805" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei207" lid="l806" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei210" lid="l807" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei204" lid="l808" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei210" lid="l809" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei194" lid="l810" relType="BEFORE" relatedToTime="t31"/>
+
+<TLINK eventInstanceID="ei216" lid="l811" relType="VAGUE" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei217" lid="l812" relType="AFTER" relatedToTime="t18"/>
+
+<TLINK eventInstanceID="ei214" lid="l813" relType="AFTER" relatedToTime="t18"/>
+
+<TLINK timeID="t31" lid="l885" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK timeID="t31" lid="l886" relType="INCLUDES" relatedToTime="t18"/>
+
+<TLINK timeID="t0" lid="l887" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK timeID="t0" lid="l888" relType="INCLUDES" relatedToTime="t18"/>
+
+<TLINK timeID="t0" lid="l889" relType="SIMULTANEOUS" relatedToTime="t31"/>
+
+<TLINK timeID="t18" lid="l890" relType="BEFORE" relatedToTime="t19"/>
+
+<TLINK eventInstanceID="ei209" lid="l2254" relType="IS_INCLUDED" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei206" lid="l2255" relType="IS_INCLUDED" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei210" lid="l2256" relType="VAGUE" relatedToEventInstance="ei214"/>
+
+<TLINK eventInstanceID="ei210" lid="l2257" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei210" lid="l2258" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei210" lid="l2259" relType="VAGUE" relatedToEventInstance="ei213"/>
+
+<TLINK eventInstanceID="ei204" lid="l2260" relType="VAGUE" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei204" lid="l2261" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei204" lid="l2262" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei206" lid="l2263" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei206" lid="l2264" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei205" lid="l2265" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei204" lid="l2266" relType="VAGUE" relatedToEventInstance="ei206"/>
+
+<TLINK eventInstanceID="ei198" lid="l2267" relType="VAGUE" relatedToEventInstance="ei201"/>
+
+<TLINK eventInstanceID="ei205" lid="l2268" relType="VAGUE" relatedToEventInstance="ei207"/>
+
+<TLINK eventInstanceID="ei198" lid="l2269" relType="VAGUE" relatedToEventInstance="ei205"/>
+
+<TLINK eventInstanceID="ei196" lid="l2270" relType="VAGUE" relatedToEventInstance="ei198"/>
+
+<TLINK eventInstanceID="ei202" lid="l2271" relType="VAGUE" relatedToEventInstance="ei203"/>
+
+<TLINK eventInstanceID="ei196" lid="l2272" relType="VAGUE" relatedToEventInstance="ei200"/>
+
+<TLINK eventInstanceID="ei202" lid="l2273" relType="VAGUE" relatedToEventInstance="ei204"/>
+
+<TLINK eventInstanceID="ei205" lid="l2274" relType="VAGUE" relatedToEventInstance="ei206"/>
+
+<TLINK eventInstanceID="ei205" lid="l2275" relType="VAGUE" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei204" lid="l2276" relType="VAGUE" relatedToEventInstance="ei205"/>
+
+<TLINK eventInstanceID="ei205" lid="l2277" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei205" lid="l2278" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei206" lid="l2279" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei206" lid="l2280" relType="VAGUE" relatedToEventInstance="ei213"/>
+
+<TLINK eventInstanceID="ei211" lid="l2281" relType="VAGUE" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei206" lid="l2282" relType="VAGUE" relatedToEventInstance="ei214"/>
+
+<TLINK eventInstanceID="ei211" lid="l2283" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei204" lid="l2284" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei206" lid="l2285" relType="AFTER" relatedToEventInstance="ei207"/>
+
+<TLINK eventInstanceID="ei214" lid="l2286" relType="AFTER" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei203" lid="l2287" relType="VAGUE" relatedToEventInstance="ei207"/>
+
+<TLINK eventInstanceID="ei214" lid="l2288" relType="AFTER" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei212" lid="l2289" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei210" lid="l2290" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei212" lid="l2291" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei210" lid="l2292" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei203" lid="l2293" relType="VAGUE" relatedToEventInstance="ei204"/>
+
+<TLINK eventInstanceID="ei212" lid="l2294" relType="VAGUE" relatedToEventInstance="ei213"/>
+
+<TLINK eventInstanceID="ei203" lid="l2295" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei212" lid="l2296" relType="VAGUE" relatedToEventInstance="ei214"/>
+
+<TLINK eventInstanceID="ei210" lid="l2297" relType="VAGUE" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei204" lid="l2298" relType="AFTER" relatedToEventInstance="ei207"/>
+
+<TLINK eventInstanceID="ei203" lid="l2299" relType="VAGUE" relatedToEventInstance="ei205"/>
+
+<TLINK eventInstanceID="ei209" lid="l2300" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei209" lid="l2301" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei201" lid="l2302" relType="VAGUE" relatedToEventInstance="ei206"/>
+
+<TLINK eventInstanceID="ei200" lid="l2303" relType="BEFORE" relatedToEventInstance="ei201"/>
+
+<TLINK eventInstanceID="ei200" lid="l2304" relType="VAGUE" relatedToEventInstance="ei205"/>
+
+<TLINK eventInstanceID="ei203" lid="l2305" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei214" lid="l2306" relType="VAGUE" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei194" lid="l2307" relType="VAGUE" relatedToEventInstance="ei195"/>
+
+<TLINK eventInstanceID="ei203" lid="l2308" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei203" lid="l2309" relType="VAGUE" relatedToEventInstance="ei206"/>
+
+<TLINK eventInstanceID="ei203" lid="l2310" relType="VAGUE" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei212" lid="l2311" relType="VAGUE" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei200" lid="l2312" relType="VAGUE" relatedToEventInstance="ei202"/>
+
+<TLINK eventInstanceID="ei200" lid="l2313" relType="VAGUE" relatedToEventInstance="ei203"/>
+
+<TLINK eventInstanceID="ei200" lid="l2314" relType="VAGUE" relatedToEventInstance="ei204"/>
+
+<TLINK eventInstanceID="ei207" lid="l2315" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei207" lid="l2316" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei207" lid="l2317" relType="INCLUDES" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei216" lid="l2318" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei213" lid="l2319" relType="VAGUE" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei209" lid="l2320" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei201" lid="l2321" relType="VAGUE" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei201" lid="l2322" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei209" lid="l2323" relType="VAGUE" relatedToEventInstance="ei214"/>
+
+<TLINK eventInstanceID="ei201" lid="l2324" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei209" lid="l2325" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei202" lid="l2326" relType="AFTER" relatedToEventInstance="ei207"/>
+
+<TLINK eventInstanceID="ei201" lid="l2327" relType="AFTER" relatedToEventInstance="ei207"/>
+
+<TLINK eventInstanceID="ei215" lid="l2328" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei209" lid="l2329" relType="VAGUE" relatedToEventInstance="ei213"/>
+
+<TLINK eventInstanceID="ei215" lid="l2330" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei207" lid="l2331" relType="VAGUE" relatedToEventInstance="ei215"/>
+
+<TLINK eventInstanceID="ei209" lid="l2332" relType="BEFORE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei201" lid="l2333" relType="AFTER" relatedToEventInstance="ei205"/>
+
+<TLINK eventInstanceID="ei201" lid="l2334" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei198" lid="l2335" relType="VAGUE" relatedToEventInstance="ei202"/>
+
+<TLINK eventInstanceID="ei202" lid="l2336" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei207" lid="l2337" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei211" lid="l2338" relType="VAGUE" relatedToEventInstance="ei213"/>
+
+<TLINK eventInstanceID="ei198" lid="l2339" relType="VAGUE" relatedToEventInstance="ei200"/>
+
+<TLINK eventInstanceID="ei207" lid="l2340" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei202" lid="l2341" relType="AFTER" relatedToEventInstance="ei205"/>
+
+<TLINK eventInstanceID="ei207" lid="l2342" relType="VAGUE" relatedToEventInstance="ei214"/>
+
+<TLINK eventInstanceID="ei206" lid="l2343" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei207" lid="l2344" relType="VAGUE" relatedToEventInstance="ei213"/>
+
+<TLINK eventInstanceID="ei213" lid="l2345" relType="AFTER" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei213" lid="l2346" relType="AFTER" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei198" lid="l2347" relType="VAGUE" relatedToEventInstance="ei204"/>
+
+<TLINK eventInstanceID="ei207" lid="l2348" relType="VAGUE" relatedToEventInstance="ei210"/>
+
+<TLINK eventInstanceID="ei198" lid="l2349" relType="VAGUE" relatedToEventInstance="ei203"/>
+
+<TLINK eventInstanceID="ei201" lid="l2350" relType="VAGUE" relatedToEventInstance="ei202"/>
+
+<TLINK eventInstanceID="ei201" lid="l2351" relType="VAGUE" relatedToEventInstance="ei203"/>
+
+<TLINK eventInstanceID="ei201" lid="l2352" relType="VAGUE" relatedToEventInstance="ei204"/>
+
+<TLINK eventInstanceID="ei202" lid="l2353" relType="VAGUE" relatedToEventInstance="ei212"/>
+
+<TLINK eventInstanceID="ei202" lid="l2354" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei202" lid="l2355" relType="VAGUE" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei213" lid="l2356" relType="VAGUE" relatedToEventInstance="ei214"/>
+
+<TLINK eventInstanceID="ei202" lid="l2357" relType="VAGUE" relatedToEventInstance="ei206"/>
+
+<TLINK eventInstanceID="ei206" lid="l2358" relType="VAGUE" relatedToEventInstance="ei209"/>
+
+<TLINK eventInstanceID="ei195" lid="l2359" relType="VAGUE" relatedToEventInstance="ei196"/>
+
+<TLINK eventInstanceID="ei206" lid="l2360" relType="VAGUE" relatedToEventInstance="ei211"/>
+
+<TLINK eventInstanceID="ei211" lid="l2361" relType="VAGUE" relatedToEventInstance="ei217"/>
+
+<TLINK eventInstanceID="ei211" lid="l2362" relType="VAGUE" relatedToEventInstance="ei216"/>
+
+<TLINK eventInstanceID="ei211" lid="l2363" relType="VAGUE" relatedToEventInstance="ei214"/>
+</TimeML>

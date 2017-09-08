@@ -1,0 +1,523 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>APW19980227.0489</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-02-27T08:13:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/27/1998 08:13:00</TIMEX3></DCT>
+
+<EXTRAINFO>
+APW19980227.0489 NEWS STORY 02/27/1998 08:13:00
+w2394 Cx1f wstmu i Cx13 Cx11 BC-OAU-Rwanda 02-27 0216
+BC-OAU-Rwanda
+OAU to investigate Rwandan genocide
+</EXTRAINFO>
+
+<TEXT>
+ADDIS ABABA, Ethiopia (AP)_ The Organization of African Unity <EVENT eid="e2" class="REPORTING" stem="say">said</EVENT> <TIMEX3 tid="t41" type="DATE" value="1998-02-27" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">Friday</TIMEX3> it would <EVENT eid="e3" class="I_ACTION" stem="investigate">investigate</EVENT> the Hutu-organized <EVENT eid="e4" class="OCCURRENCE" stem="genocide">genocide</EVENT> of more than 500,000 minority Tutsis in Rwanda <TIMEX3 tid="t42" type="DATE" value="1994" mod="APPROX" temporalFunction="true" functionInDocument="NONE" anchorTimeID="t0">nearly four years ago</TIMEX3>. Foreign ministers of member-states <EVENT eid="e5" class="OCCURRENCE" stem="meet">meeting</EVENT> in the Ethiopian capital <EVENT eid="e6" class="I_ACTION" stem="agree">agreed</EVENT> to <EVENT eid="e7" class="OCCURRENCE" stem="set">set</EVENT> up a seven-member panel to <EVENT eid="e8" class="I_ACTION" stem="investigate">investigate</EVENT> who <EVENT eid="e9" class="OCCURRENCE" stem="shoot">shot</EVENT> down Rwandan President Juvenal Habyarimana's plane on <TIMEX3 tid="t43" type="DATE" value="1994-04-06" temporalFunction="false" functionInDocument="NONE">April 6, 1994</TIMEX3>. The <EVENT eid="e10" class="OCCURRENCE" stem="assassination">assassination</EVENT> <EVENT eid="e11" class="I_ACTION" stem="touch">touched</EVENT> off a murderous <EVENT eid="e12" class="OCCURRENCE" stem="rampage">rampage</EVENT> by Hutu security forces and civilians, who <EVENT eid="e14" class="OCCURRENCE" stem="slaughter">slaughtered</EVENT> mainly Tutsis but also Hutus who <EVENT eid="e15" class="I_STATE" stem="favour">favored</EVENT> <EVENT eid="e16" class="OCCURRENCE" stem="reconciliation">reconciliation</EVENT> with the minority. It also <EVENT eid="e17" class="ASPECTUAL" stem="reignite">reignited</EVENT> the civil <EVENT eid="e18" class="OCCURRENCE" stem="war">war</EVENT>. The panel also will <EVENT eid="e19" class="I_ACTION" stem="look">look</EVENT> at the <EVENT eid="e20" class="OCCURRENCE" stem="exodus">exodus</EVENT> of about 2 million Rwanda Hutus to neighboring countries where they <EVENT eid="e22" class="STATE" stem="live">lived</EVENT> in U.N.-run refugee camps for <TIMEX3 tid="t44" type="DURATION" value="P2Y6M" temporalFunction="false" functionInDocument="NONE">2 1/2 years</TIMEX3>. The <EVENT eid="e24" class="OCCURRENCE" stem="investigation">investigation</EVENT> will <EVENT eid="e25" class="I_ACTION" stem="consider">consider</EVENT> the role of ``internal and external forces prior to the <EVENT eid="e27" class="OCCURRENCE" stem="genocide">genocide</EVENT> and subsequently, and the role of the United Nations and its agencies and the OAU before, during and after the <EVENT eid="e29" class="OCCURRENCE" stem="genocide">genocide</EVENT>,'' the OAU <EVENT eid="e30" class="REPORTING" stem="say">said</EVENT>. The panel will be <EVENT eid="e31" class="STATE" stem="base">based</EVENT> in Addis Ababa, and will <EVENT eid="e32" class="ASPECTUAL" stem="finish">finish</EVENT> its <EVENT eid="e33" class="OCCURRENCE" stem="investigation">investigation</EVENT> within <TIMEX3 tid="t45" type="DURATION" value="P1Y" mod="EQUAL_OR_LESS" temporalFunction="false" functionInDocument="NONE">a year</TIMEX3>, it <EVENT eid="e34" class="REPORTING" stem="say">said</EVENT>. It is to be <EVENT eid="e35" class="STATE" stem="fund">funded</EVENT> by voluntary contributions from within and outside the continent. (aa-kjd)
+</TEXT>
+
+<LASTEXTRAINFO>
+(PROFILE (WS SL:BC-OAU-Rwanda; CT:i; (REG:EURO;) (REG:BRIT;) (REG:SCAN;) (REG:ENGL;) (REG:AFRI;) (LANG:ENGLISH;)) )
+AP-NY-02-27-98 0813EST
+</LASTEXTRAINFO>
+
+<MAKEINSTANCE eventID="e3" eiid="ei2056" tense="NONE" aspect="NONE" polarity="POS" pos="VERB" modality="would" />
+<MAKEINSTANCE eventID="e11" eiid="ei2064" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e17" eiid="ei2069" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e7" eiid="ei2060" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e29" eiid="ei2079" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e16" eiid="ei2068" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e34" eiid="ei2084" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e33" eiid="ei2083" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e6" eiid="ei2059" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e22" eiid="ei2073" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e35" eiid="ei2085" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e9" eiid="ei2062" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e25" eiid="ei2075" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e32" eiid="ei2082" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e8" eiid="ei2061" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e19" eiid="ei2071" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e31" eiid="ei2081" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e4" eiid="ei2057" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e30" eiid="ei2080" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e15" eiid="ei2067" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e5" eiid="ei2058" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e14" eiid="ei2066" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e2" eiid="ei2055" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e18" eiid="ei2070" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e12" eiid="ei2065" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e24" eiid="ei2074" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e10" eiid="ei2063" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e27" eiid="ei2077" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e20" eiid="ei2072" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+
+<TLINK eventInstanceID="ei2055" lid="l0" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2073" lid="l1" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2063" lid="l2" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2074" lid="l3" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2057" lid="l4" relType="BEFORE" relatedToTime="t0"/>
+
+
+
+<TLINK eventInstanceID="ei2084" lid="l6" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2065" lid="l7" relType="BEFORE" relatedToTime="t0"/>
+
+
+
+<TLINK eventInstanceID="ei2068" lid="l9" relType="AFTER" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2077" lid="l10" relType="BEFORE" relatedToTime="t0"/>
+
+
+
+<TLINK eventInstanceID="ei2072" lid="l12" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2059" lid="l13" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2069" lid="l14" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2064" lid="l15" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2080" lid="l16" relType="IS_INCLUDED" relatedToTime="t0"/>
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2070" lid="l20" relType="BEFORE" relatedToTime="t0"/>
+
+
+
+<TLINK eventInstanceID="ei2079" lid="l22" relType="BEFORE" relatedToTime="t0"/>
+
+
+
+<TLINK eventInstanceID="ei2067" lid="l24" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2066" lid="l25" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2062" lid="l26" relType="BEFORE" relatedToTime="t0"/>
+
+
+
+<TLINK eventInstanceID="ei2083" lid="l28" relType="BEFORE" relatedToTime="t0"/>
+
+<TLINK eventInstanceID="ei2069" lid="l311" relType="AFTER" relatedToTime="t44"/>
+
+<TLINK eventInstanceID="ei2057" lid="l312" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2057" lid="l313" relType="IS_INCLUDED" relatedToTime="t42"/>
+
+<TLINK eventInstanceID="ei2084" lid="l314" relType="IS_INCLUDED" relatedToTime="t45"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2056" lid="l317" relType="AFTER" relatedToTime="t42"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2062" lid="l320" relType="IS_INCLUDED" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2056" lid="l321" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2080" lid="l322" relType="AFTER" relatedToTime="t45"/>
+
+<TLINK eventInstanceID="ei2058" lid="l323" relType="AFTER" relatedToTime="t43"/>
+
+
+
+<TLINK eventInstanceID="ei2061" lid="l325" relType="AFTER" relatedToTime="t43"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2075" lid="l328" relType="AFTER" relatedToTime="t45"/>
+
+<TLINK eventInstanceID="ei2060" lid="l329" relType="AFTER" relatedToTime="t43"/>
+
+
+
+<TLINK eventInstanceID="ei2059" lid="l331" relType="IS_INCLUDED" relatedToTime="t43"/>
+
+
+
+<TLINK eventInstanceID="ei2068" lid="l333" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2066" lid="l334" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2067" lid="l335" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2065" lid="l336" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2063" lid="l337" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2064" lid="l338" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2073" lid="l339" relType="IS_INCLUDED" relatedToTime="t44"/>
+
+<TLINK eventInstanceID="ei2080" lid="l340" relType="AFTER" relatedToTime="t44"/>
+
+<TLINK eventInstanceID="ei2058" lid="l341" relType="AFTER" relatedToTime="t42"/>
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2075" lid="l345" relType="AFTER" relatedToTime="t44"/>
+
+<TLINK eventInstanceID="ei2060" lid="l346" relType="AFTER" relatedToTime="t42"/>
+
+<TLINK eventInstanceID="ei2059" lid="l347" relType="AFTER" relatedToTime="t42"/>
+
+<TLINK eventInstanceID="ei2062" lid="l348" relType="AFTER" relatedToTime="t42"/>
+
+<TLINK eventInstanceID="ei2061" lid="l349" relType="AFTER" relatedToTime="t42"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2059" lid="l352" relType="BEFORE" relatedToTime="t41"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2062" lid="l355" relType="BEFORE" relatedToTime="t41"/>
+
+<TLINK eventInstanceID="ei2055" lid="l356" relType="IS_INCLUDED" relatedToTime="t41"/>
+
+<TLINK eventInstanceID="ei2055" lid="l357" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2055" lid="l358" relType="AFTER" relatedToTime="t42"/>
+
+
+
+
+
+<TLINK timeID="t0" lid="l734" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK timeID="t0" lid="l735" relType="AFTER" relatedToTime="t42"/>
+
+<TLINK timeID="t0" lid="l736" relType="SIMULTANEOUS" relatedToTime="t41"/>
+
+<TLINK timeID="t41" lid="l737" relType="AFTER" relatedToTime="t42"/>
+
+<TLINK timeID="t41" lid="l738" relType="AFTER" relatedToTime="t43"/>
+
+<TLINK timeID="t42" lid="l739" relType="INCLUDES" relatedToTime="t43"/>
+
+<TLINK eventInstanceID="ei2075" lid="l816" relType="AFTER" relatedToEventInstance="ei2079"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2075" lid="l819" relType="AFTER" relatedToEventInstance="ei2077"/>
+
+<TLINK eventInstanceID="ei2075" lid="l820" relType="AFTER" relatedToEventInstance="ei2080"/>
+
+
+
+<TLINK eventInstanceID="ei2083" lid="l822" relType="AFTER" relatedToEventInstance="ei2084"/>
+
+
+
+<TLINK eventInstanceID="ei2079" lid="l824" relType="INCLUDES" relatedToEventInstance="ei2080"/>
+
+
+
+<TLINK eventInstanceID="ei2079" lid="l826" relType="BEFORE" relatedToEventInstance="ei2082"/>
+
+<TLINK eventInstanceID="ei2059" lid="l827" relType="BEFORE" relatedToEventInstance="ei2060"/>
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2059" lid="l831" relType="AFTER" relatedToEventInstance="ei2062"/>
+
+
+
+<TLINK eventInstanceID="ei2060" lid="l833" relType="AFTER" relatedToEventInstance="ei2062"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2073" lid="l836" relType="BEFORE" relatedToEventInstance="ei2075"/>
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2075" lid="l842" relType="AFTER" relatedToEventInstance="ei2083"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2074" lid="l856" relType="AFTER" relatedToEventInstance="ei2080"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2065" lid="l859" relType="AFTER" relatedToEventInstance="ei2066"/>
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2074" lid="l865" relType="BEFORE" relatedToEventInstance="ei2075"/>
+
+<TLINK eventInstanceID="ei2074" lid="l866" relType="AFTER" relatedToEventInstance="ei2077"/>
+
+<TLINK eventInstanceID="ei2074" lid="l867" relType="AFTER" relatedToEventInstance="ei2079"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2069" lid="l875" relType="IS_INCLUDED" relatedToEventInstance="ei2070"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2077" lid="l883" relType="AFTER" relatedToEventInstance="ei2080"/>
+
+
+
+<TLINK eventInstanceID="ei2077" lid="l885" relType="BEFORE" relatedToEventInstance="ei2082"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2067" lid="l893" relType="BEFORE" relatedToEventInstance="ei2068"/>
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2071" lid="l897" relType="AFTER" relatedToEventInstance="ei2077"/>
+
+
+
+<TLINK eventInstanceID="ei2071" lid="l899" relType="AFTER" relatedToEventInstance="ei2074"/>
+
+<TLINK eventInstanceID="ei2071" lid="l900" relType="AFTER" relatedToEventInstance="ei2079"/>
+
+<TLINK eventInstanceID="ei2071" lid="l901" relType="AFTER" relatedToEventInstance="ei2073"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2064" lid="l913" relType="BEFORE" relatedToEventInstance="ei2068"/>
+
+<TLINK eventInstanceID="ei2064" lid="l914" relType="AFTER" relatedToEventInstance="ei2066"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2064" lid="l917" relType="IS_INCLUDED" relatedToEventInstance="ei2065"/>
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2070" lid="l922" relType="BEFORE" relatedToEventInstance="ei2071"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2072" lid="l929" relType="BEFORE" relatedToEventInstance="ei2075"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2066" lid="l937" relType="BEFORE" relatedToEventInstance="ei2068"/>
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2055" lid="l942" relType="AFTER" relatedToEventInstance="ei2057"/>
+
+
+
+<TLINK eventInstanceID="ei2055" lid="l944" relType="BEFORE" relatedToEventInstance="ei2056"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2056" lid="l951" relType="AFTER" relatedToEventInstance="ei2058"/>
+
+<TLINK eventInstanceID="ei2056" lid="l952" relType="AFTER" relatedToEventInstance="ei2057"/>
+
+<TLINK eventInstanceID="ei2063" lid="l953" relType="AFTER" relatedToEventInstance="ei2066"/>
+
+
+
+
+
+
+
+<TLINK eventInstanceID="ei2056" lid="l957" relType="AFTER" relatedToEventInstance="ei2062"/>
+
+
+
+
+
+<TLINK eventInstanceID="ei2061" lid="l960" relType="AFTER" relatedToEventInstance="ei2062"/>
+
+<TLINK eventInstanceID="ei2082" lid="l961" relType="AFTER" relatedToEventInstance="ei2084"/>
+
+
+
+<TLINK eventInstanceID="ei2082" lid="l963" relType="AFTER" relatedToEventInstance="ei2083"/>
+
+<TLINK eventInstanceID="ei2063" lid="l964" relType="INCLUDES" relatedToEventInstance="ei2064"/>
+
+
+</TimeML>

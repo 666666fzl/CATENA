@@ -1,22 +1,33 @@
 package catena;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.*;
 
 import catena.evaluator.PairEvaluator;
 import catena.parser.entities.CLINK;
 import catena.parser.entities.TLINK;
 import catena.parser.entities.TemporalRelation;
+import jdk.internal.org.xml.sax.SAXException;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 public class TestCatena {
 
 public static void main(String[] args) throws Exception {
 		
-		String task = "te3";
-		boolean colFilesAvailable = true;
-		boolean train = true;
+		String task = "tbdense";
+		boolean colFilesAvailable = false;
+		boolean train = false;
 		
 		switch(task) {
 		
@@ -180,16 +191,28 @@ public static void main(String[] args) throws Exception {
 			"ed980111.1130.0089.tml" 
 		};
 			
-		String[] testDocs = { 
-			"APW19980227.0489.tml",
-			"APW19980227.0494.tml",
-			"APW19980308.0201.tml",
-			"APW19980418.0210.tml",
-			"CNN19980126.1600.1104.tml",
-			"CNN19980213.2130.0155.tml",
-			"NYT19980402.0453.tml",
-			"PRI19980115.2000.0186.tml",
-			"PRI19980306.2000.1675.tml" 
+//		String[] testDocs = {
+//			"APW19980227.0489.tml",
+//			"APW19980227.0494.tml",
+//			"APW19980308.0201.tml",
+//			"APW19980418.0210.tml",
+//			"CNN19980126.1600.1104.tml",
+//			"CNN19980213.2130.0155.tml",
+//			"NYT19980402.0453.tml",
+//			"PRI19980115.2000.0186.tml",
+//			"PRI19980306.2000.1675.tml"
+//		};
+		String[] testDocs = {
+				"2010.01.01.iran.moussavi.tml",
+				"2010.01.02.pakistan.attacks.tml",
+				"2010.01.03.japan.jal.airlines.ft.tml",
+				"2010.01.06.tennis.qatar.federer.nadal.tml",
+				"2010.01.07.water.justice.tml",
+				"2010.01.07.winter.weather.tml",
+				"2010.01.12.uk.islamist.group.ban.tml",
+				"2010.01.13.haiti.un.mission.tml",
+				"2010.01.18.sherlock.holmes.tourism.london.tml",
+				"2010.01.18.uk.israel.livni.tml"
 		};
 		
 		String[] trainDocs = {
@@ -217,8 +240,9 @@ public static void main(String[] args) throws Exception {
 			"NYT19980206.0466.tml"
 		};
 		
-		Map<String, Map<String, String>> tlinkPerFile = Temporal.getTimeBankDenseTlinks("./data/TimebankDense.T3.txt");
-		
+//		Map<String, Map<String, String>> tlinkPerFile = Temporal.getTimeBankDenseTlinks("./data/TimebankDense.T3.txt");
+		Map<String, Map<String, String>> tlinkPerFile = new HashMap<>();
+
 		String taskName = "tbdense";
 		Catena cat = new Catena(true, true);
 		
@@ -255,8 +279,9 @@ public static void main(String[] args) throws Exception {
 		relTypeMapping.put("ENDED_BY", "BEFORE");
 		relTypeMapping.put("DURING", "SIMULTANEOUS");
 		relTypeMapping.put("DURING_INV", "SIMULTANEOUS");
-		List<TLINK> tlinks = temp.extractRelations(taskName, "./data/TempEval3-train_TML/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
-		
+		//List<TLINK> tlinks = temp.extractRelations(taskName, "./data/TempEval3-train_TML/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
+		List<TLINK> tlinks = temp.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
+
 		// ---------- CAUSAL ---------- //
 		
 		Map<String, Map<String, String>> clinkPerFile = Causal.getCausalTempEval3EvalTlinks("./data/Causal-TempEval3-eval.txt");
@@ -286,7 +311,7 @@ public static void main(String[] args) throws Exception {
 					tlinksForClinkTrainPerFile.get(cols[0]).put(cols[1]+","+cols[2], cols[3]);
 					tlinksForClinkTrainPerFile.get(cols[0]).put(cols[2]+","+cols[1], TemporalRelation.getInverseRelation(cols[3]));
 				}
-				causal.trainModels(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel, 
+				causal.trainModels(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel,
 						cat.isTlinkFeature(), tlinksForClinkTrainPerFile, te3CLabelCollapsed, colFilesAvailable);
 			} else {
 				causal.trainModels(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel, colFilesAvailable);
@@ -314,7 +339,9 @@ public static void main(String[] args) throws Exception {
 				tlinksForClinkPerFile.get(cols[0]).put(cols[2]+","+cols[1], TemporalRelation.getInverseRelation(label));
 			}
 			
-			clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel,
+//			clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel,
+//					cat.isTlinkFeature(), tlinksForClinkPerFile, te3CLabelCollapsed, colFilesAvailable);
+			clinks = causal.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, causalLabel,
 					cat.isTlinkFeature(), tlinksForClinkPerFile, te3CLabelCollapsed, colFilesAvailable);
 		} else {
 			clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel, colFilesAvailable);
@@ -359,6 +386,122 @@ public static void main(String[] args) throws Exception {
 		System.out.println("********** CLINK EVENT-EVENT ***********");
 		PairEvaluator peec = new PairEvaluator(clinks.getEE());
 		peec.evaluatePerLabel(causalLabel);
+		TestCatena.writeTlinks("./data/quang_gold_temporal/", Arrays.asList(testDocs), tlinks.get(1), "./data/quang_gold_temporal_catena_temporal_causal");
+	}
+
+	public static void writeTlinks(String foldername, TLINK tlinks, String outputFolder) throws ParserConfigurationException, IOException, SAXException, org.xml.sax.SAXException {
+		writeTlinks(foldername, new ArrayList<String>(), tlinks, outputFolder);
+	}
+
+	public static void writeTlinks(String foldername, List<String> includeFiles, TLINK tlinks, String outputFolder) throws ParserConfigurationException, IOException, SAXException, FileNotFoundException, ParserConfigurationException, org.xml.sax.SAXException {
+		int lid = 0;
+		File folder = new File(foldername);
+		File[] listOfFiles = folder.listFiles();
+		HashMap<String, HashMap<String, String>> res = new HashMap<>();
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder builder = factory.newDocumentBuilder();
+		HashMap<String, HashMap<String, String>> eventInstanceMap = new HashMap<>();
+		HashMap<String, String> fileContentMap = new HashMap<>();
+		File outDir = new File(outputFolder);
+		if (!outDir.exists()) {
+			outDir.mkdir();
+		}
+
+		for (File file : listOfFiles) {
+			if (file.getName().endsWith(".tml") && includeFiles.contains(file.getName())) {
+				byte[] encoded = Files.readAllBytes(Paths.get(file.getCanonicalPath()));
+				String fileContent = new String(encoded, StandardCharsets.UTF_8);
+				Document document = builder.parse(new InputSource(new StringReader(fileContent)));
+				Element rootElement = document.getDocumentElement();
+				NodeList nodeList = document.getElementsByTagName("*");
+				for (int i = 0; i < nodeList.getLength(); i++) {
+					Node currentNode = nodeList.item(i);
+					if (currentNode.getNodeName().indexOf("MAKEINSTANCE") != -1) {
+						if (!eventInstanceMap.containsKey(file.getName())) {
+							eventInstanceMap.put(file.getName(), new HashMap<>());
+						}
+						Element currElement = (Element) currentNode;
+						String eiid = currElement.getAttribute("eiid");
+						String eid = currElement.getAttribute("eventID");
+						eventInstanceMap.get(file.getName()).put(eid, eiid);
+					}
+				}
+
+				int tlinkStartIdx = fileContent.indexOf("<TLINK");
+				String usefulContent = fileContent.substring(0, tlinkStartIdx);
+				fileContentMap.put(file.getName(), usefulContent);
+			}
+		}
+
+		for (String line : tlinks.getED()) {
+			String[] splitted = line.split("\t");
+			String fname = splitted[0];
+			String e1 = splitted[1];
+			String predictedLabel = splitted[4];
+			String eii1 = eventInstanceMap.get(fname).get(e1);
+			if (eii1 == null) {
+				System.out.println(e1);
+			}
+			String eii2 = "t0";
+			String newContent = fileContentMap.get(fname) + "\n" +
+					String.format("<TLINK eventInstanceID=\"%s\" lid=\"%s\" relType=\"%s\" relatedToTime=\"%s\"/>\n",
+							eii1, "l" + lid++, predictedLabel, eii2);
+
+			fileContentMap.put(fname, newContent);
+		}
+
+		for (String line : tlinks.getET()) {
+			String[] splitted = line.split("\t");
+			String fname = splitted[0];
+			String e1 = splitted[1];
+			String e2 = splitted[2];
+			String predictedLabel = splitted[4];
+			String eii1 = eventInstanceMap.get(fname).get(e1);
+			String eii2 = "t" + e2.substring(3);
+			String newContent = fileContentMap.get(fname) + "\n" +
+					String.format("<TLINK eventInstanceID=\"%s\" lid=\"%s\" relType=\"%s\" relatedToTime=\"%s\"/>\n",
+							eii1, "l" + lid++, predictedLabel, eii2);
+			fileContentMap.put(fname, newContent);
+		}
+
+		for (String line : tlinks.getTT()) {
+			String[] splitted = line.split("\t");
+			String fname = splitted[0];
+			String e1 = splitted[1];
+			String e2 = splitted[2];
+			String predictedLabel = splitted[4];
+			String eii1 = "t" + e1.substring(3);
+			String eii2 = "t" + e2.substring(3);
+			String newContent = fileContentMap.get(fname) + "\n" +
+					String.format("<TLINK timeID=\"%s\" lid=\"%s\" relType=\"%s\" relatedToTime=\"%s\"/>\n",
+							eii1, "l" + lid++, predictedLabel, eii2);
+			fileContentMap.put(fname, newContent);
+		}
+
+		for (String line : tlinks.getEE()) {
+			String[] splitted = line.split("\t");
+			String fname = splitted[0];
+			String e1 = splitted[1];
+			String e2 = splitted[2];
+			String predictedLabel = splitted[4];
+			String eii1 = eventInstanceMap.get(fname).get(e1);
+			String eii2 = eventInstanceMap.get(fname).get(e2);
+			String newContent = fileContentMap.get(fname) + "\n" +
+					String.format("<TLINK eventInstanceID=\"%s\" lid=\"%s\" relType=\"%s\" relatedToEventInstance=\"%s\"/>\n",
+							eii1, "l" + lid++, predictedLabel, eii2);
+			fileContentMap.put(fname, newContent);
+		}
+
+		for (Map.Entry<String, String> entry : fileContentMap.entrySet()) {
+			String content = entry.getValue() + "</TimeML>";
+			try {
+				PrintStream ps = new PrintStream(outputFolder + "/" + entry.getKey());
+				ps.print(content);
+				ps.close();
+			} catch (FileNotFoundException e) {
+				System.err.println("Unable to open file");
+			}
+		}
 	}
 	
 }
