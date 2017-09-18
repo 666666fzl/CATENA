@@ -106,7 +106,7 @@ He <EVENT class="REPORTING" eid="e40">said</EVENT> he was <EVENT class="REPORTIN
 <TLINK timeID="t2" lid="l36" relType="AFTER" relatedToTime="t3" />
 <TLINK timeID="t2" lid="l37" relType="SIMULTANEOUS" relatedToTime="t4" />
 <TLINK eventInstanceID="ei4" lid="l38" relType="BEFORE" relatedToTime="t0" />
-<TLINK eventInstanceID="ei4" lid="l39" relType="IS_INCLUDED" relatedToEventInstance="ei5" />
+<TLINK eventInstanceID="ei4" lid="l39" relType="AFTER" relatedToEventInstance="ei5" />
 <TLINK eventInstanceID="ei4" lid="l40" relType="BEFORE" relatedToEventInstance="ei6" />
 <TLINK eventInstanceID="ei4" lid="l41" relType="BEFORE" relatedToEventInstance="ei7" />
 <TLINK eventInstanceID="ei4" lid="l42" relType="IS_INCLUDED" relatedToTime="t3" />

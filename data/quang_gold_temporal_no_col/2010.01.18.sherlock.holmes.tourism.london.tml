@@ -154,5 +154,7 @@ A. Pawlowski and Phil Han <EVENT class="OCCURRENCE" eid="e40">contributed</EVENT
 <TLINK eventInstanceID="ei37" lid="l94" relType="BEFORE" relatedToEventInstance="ei39" />
 <TLINK eventInstanceID="ei37" lid="l95" relType="BEFORE" relatedToEventInstance="ei40" />
 <TLINK eventInstanceID="ei38" lid="l96" relType="SIMULTANEOUS" relatedToEventInstance="ei39" />
+<TLINK eventInstanceID="ei24" lid="l97" relType="BEFORE" relatedToEventInstance="ei27" />
+<TLINK eventInstanceID="ei24" lid="l98" relType="BEFORE" relatedToEventInstance="ei26" />
 
 </TimeML>

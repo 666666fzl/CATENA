@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.02.pakistan.attacks</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-03" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-03</TIMEX3></DCT>
+<TEXT>
+The death toll <EVENT class="OCCURRENCE" eid="e1">climbed</EVENT> to 99 on <TIMEX3 tid="t1" type="DATE" value="2010-01-03">Sunday</TIMEX3> after a suicide car bomb <EVENT class="OCCURRENCE" eid="e2">exploded</EVENT> <TIMEX3 tid="t2" type="DATE" value="2010-01-01">Friday</TIMEX3> in the middle of a group of men <EVENT class="OCCURRENCE" eid="e3">playing</EVENT> volleyball in northwest Pakistan, police <EVENT class="REPORTING" eid="e4">said</EVENT>.
+Thirty-six others who were <EVENT class="OCCURRENCE" eid="e5">injured</EVENT> in the attack <EVENT class="STATE" eid="e6">remained</EVENT> <EVENT class="OCCURRENCE" eid="e7">hospitalized</EVENT> <TIMEX3 tid="t3" type="DATE" value="2010-01-03">Sunday</TIMEX3>, <EVENT class="REPORTING" eid="e8">said</EVENT> Mohammed Ayub Khan, police chief of the Lakki Marwat district.
+Those killed included at least six children, and most of the other victims were teenagers who were <EVENT class="OCCURRENCE" eid="e10">watching</EVENT> the volleyball game, he <EVENT class="OCCURRENCE" eid="e11">added</EVENT>.
+People who <EVENT class="OCCURRENCE" eid="e12">lived</EVENT> near the volleyball court also were among the casualties.
+The number of those hospitalized <EVENT class="OCCURRENCE" eid="e13">climbed</EVENT> from the 34 reported <TIMEX3 tid="t4" type="DATE" value="2010-01-02">Saturday</TIMEX3>, because information has <EVENT class="OCCURRENCE" eid="e14">trickled</EVENT> in from area hospitals, Khan <EVENT class="REPORTING" eid="e15">said</EVENT>.
+The attack <EVENT class="OCCURRENCE" eid="e16">happened</EVENT> in a residential neighborhood in the village of Shah Hassan Khel -- also called Lakki Marwat -- in Pakistan's North West Frontier Province, <EVENT class="REPORTING" eid="e18">said</EVENT> district police officer Asmat Ullah.
+The village is about 10 miles ( 16 kilometers ) south of the district capital.
+Eight houses in the neighborhood <EVENT class="OCCURRENCE" eid="e19">collapsed</EVENT>, and the blast was <EVENT class="OCCURRENCE" eid="e20">felt</EVENT> miles away, the police chief <EVENT class="REPORTING" eid="e21">said</EVENT>.
+Volleyball is a popular sport in the area, and more than 200 people were <EVENT class="OCCURRENCE" eid="e22">watching</EVENT> the game when the bomb <EVENT class="OCCURRENCE" eid="e23">went</EVENT> off, the chief <EVENT class="REPORTING" eid="e24">said</EVENT>.
+Authorities <EVENT class="I_STATE" eid="e25">believe</EVENT> a pickup was <EVENT class="OCCURRENCE" eid="e26">loaded</EVENT> with more than 600 pounds ( 300 kilograms ) of explosives, Khan <EVENT class="REPORTING" eid="e27">said</EVENT>.
+The area used to be a hub for militants before the military <EVENT class="OCCURRENCE" eid="e29">flushed</EVENT> them out about <TIMEX3 tid="t5" type="DURATION" value="">two months ago</TIMEX3>, the chief <EVENT class="REPORTING" eid="e30">said</EVENT>.
+Since then, militants have been <EVENT class="OCCURRENCE" eid="e31">threatening</EVENT> the community, Mushtaq Marwatt, a member of a local peace committee, <EVENT class="REPORTING" eid="e32">said</EVENT> on a local TV channel.
+The region is near the rugged border with Afghanistan.
+The border area has been the scene of heavy fighting between Pakistani military forces and the Taliban, the Islamic militia that also is <EVENT class="OCCURRENCE" eid="e33">battling</EVENT> U.S. forces in Afghanistan.
+Journalists Nasir Habib, Nasir Dawar and Nazar ul-Islam <EVENT class="OCCURRENCE" eid="e34">contributed</EVENT> to this report.
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei29" eventID="e29" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei31" eventID="e31" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei32" eventID="e32" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei33" eventID="e33" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="PAST" />
+</TimeML>

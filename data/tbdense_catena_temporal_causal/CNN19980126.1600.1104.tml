@@ -43,141 +43,44 @@ But investors are <EVENT eid="e30" class="I_ACTION">approaching</EVENT> the <EVE
 <MAKEINSTANCE eventID="e52" eiid="ei285" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
 <MAKEINSTANCE eventID="e206" eiid="ei288" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB" />
 
-<TLINK eventInstanceID="ei284" lid="l143" relType="INCLUDES" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei284" lid="l49" relType="INCLUDES" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei276" lid="l144" relType="INCLUDES" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei262" lid="l50" relType="IS_INCLUDED" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei269" lid="l145" relType="VAGUE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei265" lid="l51" relType="IS_INCLUDED" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei288" lid="l146" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei283" lid="l147" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei282" lid="l148" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei257" lid="l149" relType="VAGUE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei284" lid="l200" relType="INCLUDES" relatedToTime="t33"/>
 
-<TLINK eventInstanceID="ei268" lid="l150" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei265" lid="l151" relType="IS_INCLUDED" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei262" lid="l202" relType="AFTER" relatedToTime="t32"/>
 
-<TLINK eventInstanceID="ei274" lid="l152" relType="BEFORE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei255" lid="l153" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei279" lid="l154" relType="VAGUE" relatedToTime="t0"/>
+<TLINK timeID="t34" lid="l374" relType="INCLUDES" relatedToTime="t33"/>
 
-<TLINK eventInstanceID="ei262" lid="l155" relType="IS_INCLUDED" relatedToTime="t0"/>
+<TLINK timeID="t0" lid="l375" relType="SIMULTANEOUS" relatedToTime="t33"/>
 
-<TLINK eventInstanceID="ei261" lid="l156" relType="AFTER" relatedToTime="t0"/>
+<TLINK timeID="t0" lid="l376" relType="IS_INCLUDED" relatedToTime="t34"/>
 
-<TLINK eventInstanceID="ei277" lid="l157" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei263" lid="l158" relType="BEFORE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei275" lid="l159" relType="VAGUE" relatedToTime="t0"/>
+<TLINK eventInstanceID="ei262" lid="l660" relType="IS_INCLUDED" relatedToEventInstance="ei263"/>
 
-<TLINK eventInstanceID="ei258" lid="l160" relType="VAGUE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei285" lid="l161" relType="BEFORE" relatedToTime="t0"/>
 
-<TLINK eventInstanceID="ei284" lid="l538" relType="INCLUDES" relatedToTime="t33"/>
 
-<TLINK eventInstanceID="ei276" lid="l539" relType="INCLUDES" relatedToTime="t33"/>
+<TLINK eventInstanceID="ei274" lid="l664" relType="AFTER" relatedToEventInstance="ei275"/>
 
-<TLINK eventInstanceID="ei269" lid="l540" relType="VAGUE" relatedToTime="t34"/>
 
-<TLINK eventInstanceID="ei261" lid="l541" relType="VAGUE" relatedToTime="t32"/>
 
-<TLINK eventInstanceID="ei283" lid="l542" relType="INCLUDES" relatedToTime="t33"/>
+<TLINK eventInstanceID="ei277" lid="l667" relType="AFTER" relatedToEventInstance="ei279"/>
 
-<TLINK eventInstanceID="ei258" lid="l543" relType="VAGUE" relatedToTime="t32"/>
 
-<TLINK eventInstanceID="ei265" lid="l544" relType="BEFORE" relatedToTime="t32"/>
+<TLINK eventInstanceID="ei282" lid="l669" relType="IS_INCLUDED" relatedToEventInstance="ei283"/>
 
-<TLINK eventInstanceID="ei263" lid="l545" relType="VAGUE" relatedToTime="t32"/>
 
-<TLINK eventInstanceID="ei277" lid="l546" relType="VAGUE" relatedToTime="t33"/>
 
-<TLINK eventInstanceID="ei282" lid="l547" relType="VAGUE" relatedToTime="t33"/>
-
-<TLINK eventInstanceID="ei288" lid="l548" relType="VAGUE" relatedToTime="t34"/>
-
-<TLINK eventInstanceID="ei268" lid="l549" relType="VAGUE" relatedToTime="t34"/>
-
-<TLINK eventInstanceID="ei279" lid="l550" relType="VAGUE" relatedToTime="t33"/>
-
-<TLINK eventInstanceID="ei262" lid="l551" relType="AFTER" relatedToTime="t32"/>
-
-<TLINK timeID="t34" lid="l853" relType="INCLUDES" relatedToTime="t33"/>
-
-<TLINK timeID="t0" lid="l854" relType="SIMULTANEOUS" relatedToTime="t33"/>
-
-<TLINK timeID="t0" lid="l855" relType="IS_INCLUDED" relatedToTime="t34"/>
-
-<TLINK eventInstanceID="ei255" lid="l1502" relType="VAGUE" relatedToEventInstance="ei257"/>
-
-<TLINK eventInstanceID="ei255" lid="l1503" relType="VAGUE" relatedToEventInstance="ei261"/>
-
-<TLINK eventInstanceID="ei288" lid="l1504" relType="VAGUE" relatedToEventInstance="ei268"/>
-
-<TLINK eventInstanceID="ei277" lid="l1505" relType="AFTER" relatedToEventInstance="ei279"/>
-
-<TLINK eventInstanceID="ei284" lid="l1506" relType="VAGUE" relatedToEventInstance="ei285"/>
-
-<TLINK eventInstanceID="ei258" lid="l1507" relType="VAGUE" relatedToEventInstance="ei263"/>
-
-<TLINK eventInstanceID="ei262" lid="l1508" relType="IS_INCLUDED" relatedToEventInstance="ei263"/>
-
-<TLINK eventInstanceID="ei274" lid="l1509" relType="AFTER" relatedToEventInstance="ei275"/>
-
-<TLINK eventInstanceID="ei282" lid="l1510" relType="VAGUE" relatedToEventInstance="ei284"/>
-
-<TLINK eventInstanceID="ei268" lid="l1511" relType="VAGUE" relatedToEventInstance="ei269"/>
-
-<TLINK eventInstanceID="ei261" lid="l1512" relType="VAGUE" relatedToEventInstance="ei263"/>
-
-<TLINK eventInstanceID="ei283" lid="l1513" relType="VAGUE" relatedToEventInstance="ei284"/>
-
-<TLINK eventInstanceID="ei276" lid="l1514" relType="INCLUDES" relatedToEventInstance="ei277"/>
-
-<TLINK eventInstanceID="ei276" lid="l1515" relType="VAGUE" relatedToEventInstance="ei279"/>
-
-<TLINK eventInstanceID="ei262" lid="l1516" relType="VAGUE" relatedToEventInstance="ei265"/>
-
-<TLINK eventInstanceID="ei257" lid="l1517" relType="VAGUE" relatedToEventInstance="ei261"/>
-
-<TLINK eventInstanceID="ei263" lid="l1518" relType="VAGUE" relatedToEventInstance="ei265"/>
-
-<TLINK eventInstanceID="ei275" lid="l1519" relType="VAGUE" relatedToEventInstance="ei276"/>
-
-<TLINK eventInstanceID="ei275" lid="l1520" relType="VAGUE" relatedToEventInstance="ei277"/>
-
-<TLINK eventInstanceID="ei275" lid="l1521" relType="VAGUE" relatedToEventInstance="ei279"/>
-
-<TLINK eventInstanceID="ei274" lid="l1522" relType="BEFORE" relatedToEventInstance="ei277"/>
-
-<TLINK eventInstanceID="ei282" lid="l1523" relType="IS_INCLUDED" relatedToEventInstance="ei283"/>
-
-<TLINK eventInstanceID="ei274" lid="l1524" relType="VAGUE" relatedToEventInstance="ei276"/>
-
-<TLINK eventInstanceID="ei274" lid="l1525" relType="VAGUE" relatedToEventInstance="ei279"/>
-
-<TLINK eventInstanceID="ei265" lid="l1526" relType="VAGUE" relatedToEventInstance="ei288"/>
-
-<TLINK eventInstanceID="ei282" lid="l1527" relType="VAGUE" relatedToEventInstance="ei285"/>
-
-<TLINK eventInstanceID="ei261" lid="l1528" relType="VAGUE" relatedToEventInstance="ei262"/>
-
-<TLINK eventInstanceID="ei255" lid="l1529" relType="VAGUE" relatedToEventInstance="ei258"/>
-
-<TLINK eventInstanceID="ei288" lid="l1530" relType="VAGUE" relatedToEventInstance="ei269"/>
-
-<TLINK eventInstanceID="ei283" lid="l1531" relType="VAGUE" relatedToEventInstance="ei285"/>
-
-<TLINK eventInstanceID="ei257" lid="l1532" relType="VAGUE" relatedToEventInstance="ei258"/>
-
-<TLINK eventInstanceID="ei258" lid="l1533" relType="VAGUE" relatedToEventInstance="ei262"/>
-
-<TLINK eventInstanceID="ei258" lid="l1534" relType="VAGUE" relatedToEventInstance="ei261"/>
 </TimeML>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.03.japan.jal.airlines.ft</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-03" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-03</TIMEX3></DCT>
+<TEXT>
+( FT ) Japan Airlines, the struggling carrier, was on <TIMEX3 tid="t1" type="DATE" value="2010-01-03">Sunday</TIMEX3> thrown a temporary lifeline after the Japanese government <EVENT class="I_ACTION" eid="e1">agreed</EVENT> to <EVENT class="OCCURRENCE" eid="e2">double</EVENT> a state-sponsored credit line to ¥ 200bn ( $ 2.2bn ).
+The government <EVENT class="OCCURRENCE" eid="e4">asked</EVENT> the Development Bank of Japan ( DBJ ) to <EVENT class="OCCURRENCE" eid="e5">raise</EVENT> its commitment facility to JAL after ministers including Seiji Maehara, transport minister, and Naoto Kan, deputy prime minister, <EVENT class="OCCURRENCE" eid="e6">met</EVENT> to <EVENT class="OCCURRENCE" eid="e7">discuss</EVENT> how Tokyo could further <EVENT class="OCCURRENCE" eid="e8">support</EVENT> the ailing airline.
+The DBJ, which is 100-per cent owned by the Japanese government, <EVENT class="REPORTING" eid="e10">said</EVENT> it would <EVENT class="I_STATE" eid="e11">consider</EVENT> the request and <EVENT class="OCCURRENCE" eid="e12">come</EVENT> to a decision as soon as possible " in order to <EVENT class="OCCURRENCE" eid="e13">cooperate</EVENT> with the safe operation " of the carrier.
+The bank has a ¥ 100bn credit line to JAL, ¥ 55bn of which has already been <EVENT class="OCCURRENCE" eid="e14">used</EVENT>.
+The increased credit line is <EVENT class="I_ACTION" eid="e15">aimed</EVENT> at allaying fears among JAL's suppliers and creditors about the airline's financial stability.
+JAL's shares have been <EVENT class="OCCURRENCE" eid="e16">battered</EVENT> by fears that the carrier would be <EVENT class="OCCURRENCE" eid="e17">forced</EVENT> to <EVENT class="I_ACTION" eid="e18">seek</EVENT> court-administered rehabilitation.
+The shares <EVENT class="OCCURRENCE" eid="e19">fell</EVENT> to a record low of ¥ 60 and <EVENT class="ASPECTUAL" eid="e20">finished</EVENT> at ¥ <TIMEX3 tid="t2" type="DATE" value="2009-12-30">67 last Wednesday</TIMEX3>, before the market <EVENT class="OCCURRENCE" eid="e21">closed</EVENT> for the New Year holidays.
+The Tokyo market re-opens on <TIMEX3 tid="t3" type="DATE" value="2010-01-04">Monday</TIMEX3> for the first time <TIMEX3 tid="t4" type="DATE" value="2010">this year</TIMEX3>.
+Growing anxiety about JAL's financial condition has been <EVENT class="OCCURRENCE" eid="e23">fuelled</EVENT> by media reports that the state-sponsored Enterprise Turnaround Initiative Corporation, which is <EVENT class="I_STATE" eid="e24">considering</EVENT> whether to <EVENT class="OCCURRENCE" eid="e25">take</EVENT> on JAL's restructuring, <EVENT class="OCCURRENCE" eid="e26">preferred</EVENT> a court-backed rehabilitation of the airline similar to Chapter 11 in the US.
+JAL's main private bank creditors are <EVENT class="I_STATE" eid="e27">believed</EVENT> to be <EVENT class="OCCURRENCE" eid="e28">opposed</EVENT> to a court-sponsored rehabilitation, which would <EVENT class="OCCURRENCE" eid="e29">impose</EVENT> more onerous terms on them than a settlement agreed out of court.
+" [ ETIC ] would have to first convince the mega-banks to <EVENT class="I_ACTION" eid="e31">agree</EVENT> to a court-backed plan, " <EVENT class="REPORTING" eid="e32">said</EVENT> one person with knowledge of the situation.
+Haruka Nishimatsu, JAL'S president, <EVENT class="I_STATE" eid="e33">appeared</EVENT> to <EVENT class="OCCURRENCE" eid="e34">oppose</EVENT> a court-backed plan in comments made to the Asahi newspaper.
+" I do n't <EVENT class="OCCURRENCE" eid="e36">understand</EVENT> why they <EVENT class="I_STATE" eid="e37">want</EVENT> a court-sponsored rehabilitation, " the Asahi on <TIMEX3 tid="t5" type="DATE" value="2010-01-03">Sunday</TIMEX3> <EVENT class="REPORTING" eid="e38">quoted</EVENT> him as <EVENT class="REPORTING" eid="e39">saying</EVENT>.
+Mr Nishimatsu <EVENT class="REPORTING" eid="e40">told</EVENT> the Asahi : " I myself <EVENT class="I_STATE" eid="e41">believe</EVENT> we can ( restructure sufficiently ) without such a method so I would like ( the ETIC ) to <EVENT class="OCCURRENCE" eid="e44">understand</EVENT> that, ".
+JAL is also <EVENT class="OCCURRENCE" eid="e45">weighing</EVENT> the benefits of <EVENT class="I_ACTION" eid="e46">accepting</EVENT> a capital injection from either American Airlines or Delta Airlines, the US carriers.
+Mr Nishimatsu <EVENT class="REPORTING" eid="e47">told</EVENT> the Asahi newspaper that the advantage of Delta's Sky Team alliance was that it had more Asian members.
+He <EVENT class="REPORTING" eid="e48">said</EVENT> JAL, which is already a member of AA's One World alliance, would <EVENT class="OCCURRENCE" eid="e49">face</EVENT> a major task <EVENT class="OCCURRENCE" eid="e50">changing</EVENT> its IT systems if it were to <EVENT class="OCCURRENCE" eid="e51">shift</EVENT> to Delta's Sky Team alliance. © The Financial Times Limited <TIMEX3 tid="t6" type="DATE" value="2009">2009</TIMEX3>
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei2" eventID="e2" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei13" eventID="e13" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei16" eventID="e16" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei17" eventID="e17" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei21" eventID="e21" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei23" eventID="e23" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei24" eventID="e24" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei28" eventID="e28" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei29" eventID="e29" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei32" eventID="e32" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei33" eventID="e33" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei36" eventID="e36" polarity="NEG"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei37" eventID="e37" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei38" eventID="e38" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei39" eventID="e39" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei40" eventID="e40" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei41" eventID="e41" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei44" eventID="e44" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei45" eventID="e45" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei46" eventID="e46" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei47" eventID="e47" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei48" eventID="e48" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei49" eventID="e49" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei50" eventID="e50" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei51" eventID="e51" polarity="POS"  tense="INFINITIVE" />
+</TimeML>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.03.02.japan.unemployment.ft</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-03-02" temporalFunction="false" functionInDocument="CREATION_TIME">2010-03-02</TIMEX3></DCT>
+<TEXT>
+Japan's unemployment rate <EVENT class="OCCURRENCE" eid="e1">fell</EVENT> below 5 per cent for the first time in <TIMEX3 tid="t1" type="DURATION" value="">a year</TIMEX3> in <TIMEX3 tid="t2" type="DATE" value="2010-01">January</TIMEX3>, according to data <EVENT class="OCCURRENCE" eid="e3">released</EVENT> on <TIMEX3 tid="t3" type="DATE" value="2010-03-02">Tuesday</TIMEX3>, as strong exports <EVENT class="OCCURRENCE" eid="e4">fed</EVENT> into a strengthening economic recovery.
+In <TIMEX3 tid="t4" type="DATE" value="2010-01">January</TIMEX3>, the jobless rate <EVENT class="OCCURRENCE" eid="e5">dropped</EVENT> to 4.9 per cent, the lowest since <TIMEX3 tid="t5" type="DATE" value="2009-03">March 2009</TIMEX3>, down from a revised 5.2 per cent in <TIMEX3 tid="t6" type="DATE" value="2009-12">December</TIMEX3>.
+Economists <EVENT class="OCCURRENCE" eid="e6">polled</EVENT> by Reuters had <EVENT class="OCCURRENCE" eid="e7">forecast</EVENT> an unemployment rate of 5.2 per cent.
+" The economic recovery in Japan is <EVENT class="OCCURRENCE" eid="e8">filtering</EVENT> through to more jobs, " <EVENT class="REPORTING" eid="e9">said</EVENT> Matthew Circosta, economist at Moody's Economy.com.
+" Labour supply <EVENT class="OCCURRENCE" eid="e10">rose</EVENT>, after <EVENT class="OCCURRENCE" eid="e11">declining</EVENT> for <TIMEX3 tid="t7" type="DURATION" value="">the last three months</TIMEX3>.
+Encouragingly, the improvement in business sentiment and perceptions of employment conditions in <TIMEX3 tid="t8" type="DURATION" value="">recent months</TIMEX3> <EVENT class="I_STATE" eid="e12">seems</EVENT> to have <EVENT class="OCCURRENCE" eid="e13">encouraged</EVENT> workers back into the labour force, which is being <EVENT class="OCCURRENCE" eid="e14">absorbed</EVENT> by increased hiring. "
+Robust exports have also <EVENT class="OCCURRENCE" eid="e15">benefited</EVENT> job-seekers.
+Japan <EVENT class="OCCURRENCE" eid="e16">registered</EVENT> its biggest year-on-year increase in exports in almost <TIMEX3 tid="t9" type="DURATION" value="">30 years</TIMEX3> in <TIMEX3 tid="t10" type="DATE" value="2010-01">January</TIMEX3>, <EVENT class="OCCURRENCE" eid="e17">prompting</EVENT> manufacturers to <EVENT class="OCCURRENCE" eid="e18">hire</EVENT> more people who, in turn, <EVENT class="OCCURRENCE" eid="e19">spent</EVENT> more.
+Consumption <EVENT class="OCCURRENCE" eid="e20">rose</EVENT> 1.7 per cent in <TIMEX3 tid="t11" type="DATE" value="2010-01">January</TIMEX3> from the same period <TIMEX3 tid="t12" type="DATE" value="2009">last year</TIMEX3>, based on a price-adjusted basis, thanks to government subsidies for purchases of automobiles and household electronics, according to a separate report <EVENT class="OCCURRENCE" eid="e22">released</EVENT> on <TIMEX3 tid="t13" type="DATE" value="2010-03-02">Tuesday</TIMEX3>.
+Since <EVENT class="OCCURRENCE" eid="e23">hitting</EVENT> a record 5.6 per cent in <TIMEX3 tid="t14" type="DATE" value="2009-07">July last year</TIMEX3>, Japan's jobless rate has been <EVENT class="OCCURRENCE" eid="e24">falling</EVENT> steadily after it <EVENT class="OCCURRENCE" eid="e25">launched</EVENT> an emergency programme to <EVENT class="OCCURRENCE" eid="e26">create</EVENT> 100,000 jobs in <TIMEX3 tid="t15" type="DATE" value="2009-10">October</TIMEX3> to <EVENT class="OCCURRENCE" eid="e27">ease</EVENT> the worsening social effects of high unemployment.
+Economists, however, <EVENT class="I_ACTION" eid="e28">warned</EVENT> that the outlook on employment would <EVENT class="STATE" eid="e29">remain</EVENT> uncertain over the coming <TIMEX3 tid="t16" type="DURATION" value="">months</TIMEX3>.
+" We remain sceptical about the sustainability of this trend, with... the economy very weak by historical standards, " <EVENT class="REPORTING" eid="e30">said</EVENT> Mr Circosta.
+" Domestic demand remains depressed, while surveys have <EVENT class="REPORTING" eid="e31">shown</EVENT> the majority of firms <EVENT class="I_STATE" eid="e32">believe</EVENT> current staffing levels are excessive.
+The recent burst of hiring is unsustainable if deflation persists in the economy." © The Financial Times Limited <TIMEX3 tid="t17" type="DATE" value="2009">2009</TIMEX3>
+</TEXT>
+<MAKEINSTANCE aspect="NONE" eiid="ei1" eventID="e1" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei3" eventID="e3" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei7" eventID="e7" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei8" eventID="e8" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei9" eventID="e9" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei10" eventID="e10" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei13" eventID="e13" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei15" eventID="e15" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei17" eventID="e17" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei20" eventID="e20" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei24" eventID="e24" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei28" eventID="e28" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei29" eventID="e29" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei31" eventID="e31" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei32" eventID="e32" polarity="POS"  tense="PRESENT" />
+
+<TLINK eventInstanceID="ei16" lid="l3" relType="CLINK" relatedToEventInstance="ei18"/>
+</TimeML>

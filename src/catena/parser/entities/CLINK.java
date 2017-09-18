@@ -45,4 +45,10 @@ public class CLINK {
 		
 		return str.toString();
 	}
+
+	public TLINK toTLINK(){
+		TLINK tlink = new TLINK();
+		tlink.setEE(ee);
+		return tlink;
+	}
 }

@@ -1,5 +1,6 @@
 package catena;
 
+import java.util.Arrays;
 import java.util.Map;
 
 import catena.evaluator.PairEvaluator;
@@ -9,9 +10,9 @@ public class TestCausal {
 
 public static void main(String[] args) throws Exception {
 		
-		String task = "te3";
+		String task = "tbdense";
 		boolean colFilesAvailable = true;
-		boolean train = false;
+		boolean train = true;
 		
 		switch(task) {
 		
@@ -67,7 +68,7 @@ public static void main(String[] args) throws Exception {
 			"ed980111.1130.0089.tml" 
 		};
 			
-		String[] testDocs = { 
+		String[] testDocs2 = {
 			"APW19980227.0489.tml",
 			"APW19980227.0494.tml",
 			"APW19980308.0201.tml",
@@ -76,7 +77,21 @@ public static void main(String[] args) throws Exception {
 			"CNN19980213.2130.0155.tml",
 			"NYT19980402.0453.tml",
 			"PRI19980115.2000.0186.tml",
-			"PRI19980306.2000.1675.tml" 
+			"PRI19980306.2000.1675.tml"
+		};
+		String[] testDocs = {
+			"2010.01.01.iran.moussavi.tml",
+			"2010.01.02.pakistan.attacks.tml",
+			"2010.01.03.japan.jal.airlines.ft.tml",
+			"2010.01.06.tennis.qatar.federer.nadal.tml",
+			"2010.01.07.water.justice.tml",
+			"2010.01.07.winter.weather.tml",
+			"2010.01.12.uk.islamist.group.ban.tml",
+			"2010.01.13.haiti.un.mission.tml",
+			"2010.01.18.sherlock.holmes.tourism.london.tml",
+			"2010.01.18.uk.israel.livni.tml",
+			"2010.02.05.sotu.crowley.column.tml",
+			"2010.03.02.japan.unemployment.ft.tml"
 		};
 		
 		String[] trainDocs = {
@@ -120,11 +135,11 @@ public static void main(String[] args) throws Exception {
 		// TRAIN
 		if (train) {
 			System.err.println("Train causal model...");
-			causal.trainModels(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel, colFilesAvailable);	//train causal model, excluding testDocs from CausalTimeBank
+			causal.trainModels(taskName, "./data/Causal-TimeBank_TML/", testDocs2, causalLabel, colFilesAvailable);	//train causal model, excluding testDocs from CausalTimeBank
 		}
 		
 		// PREDICT
-		clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel, colFilesAvailable);
+		clinks = causal.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, causalLabel, colFilesAvailable);
 		
 		// EVALUATE
 		System.out.println("********** EVALUATION RESULTS **********");
@@ -132,6 +147,8 @@ public static void main(String[] args) throws Exception {
 		System.out.println("********** CLINK EVENT-EVENT ***********");
 		pee = new PairEvaluator(clinks.getEE());
 		pee.evaluatePerLabel(causalLabelEval);
+		TestCatena.writeTlinks("./data/quang_gold_temporal_no_col/", Arrays.asList(testDocs), clinks.toTLINK(), "./data/quang_causal_retrain");
+
 	}
 	
 }

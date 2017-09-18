@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+<DOCID>2010.01.18.sherlock.holmes.tourism.london</DOCID>
+<DCT><TIMEX3 tid="t0" type="DATE" value="2010-01-18" temporalFunction="false" functionInDocument="CREATION_TIME">2010-01-18</TIMEX3></DCT>
+<TEXT>
+Sherlock Holmes the movie has already <EVENT class="OCCURRENCE" eid="e1">made</EVENT> more than $300 million at the box office worldwide and British tourism officials are <EVENT class="I_STATE" eid="e2">hoping</EVENT> it means money for them too.
+Britain's tourism board has been <EVENT class="OCCURRENCE" eid="e3">promoting</EVENT> films for the past <TIMEX3 tid="t1" type="DURATION" value="">15 years</TIMEX3>, so they <EVENT class="I_STATE" eid="e4">know</EVENT> just how lucrative a movie like " Sherlock Homes " can be.
+" To <EVENT class="OCCURRENCE" eid="e5">give</EVENT> you an example of a typical blockbuster film, it is normally <EVENT class="OCCURRENCE" eid="e6">seen</EVENT> by about 120 million people in the first three weeks of opening, " Visit Britain official Laurence Bresh <EVENT class="REPORTING" eid="e7">told</EVENT> CNN.
+" Even if a small percentage of those <EVENT class="OCCURRENCE" eid="e8">come</EVENT> to <EVENT class="OCCURRENCE" eid="e9">visit</EVENT> Britain as a result of this particular film, that's going to have a huge boost in some of those tourism attractions featured in our promotion. "
+As much of " Sherlock Holmes " is <EVENT class="OCCURRENCE" eid="e11">set</EVENT> in London this means big business for museum officials and gift shop operators.
+The Sherlock Holmes Museum at 221b Baker Street is the address where the fictional detective <EVENT class="OCCURRENCE" eid="e12">lived</EVENT>, according to the stories by Conan Doyle.
+Nearby, a nine-foot statue of Holmes <EVENT class="OCCURRENCE" eid="e14">greets</EVENT> visitors at the Baker Street Underground station.
+Inside the museum, visitors can <EVENT class="OCCURRENCE" eid="e15">check</EVENT> out Holmes' study, <EVENT class="OCCURRENCE" eid="e16">sit</EVENT> in his armchair by the fireside, <EVENT class="OCCURRENCE" eid="e17">examine</EVENT> his calabash pipe and <EVENT class="OCCURRENCE" eid="e18">observe</EVENT> his chemistry equipment.
+" I <EVENT class="I_STATE" eid="e19">think</EVENT> Hollywood has <EVENT class="OCCURRENCE" eid="e20">put</EVENT> its magic touch on the legend, and they've <EVENT class="OCCURRENCE" eid="e21">put</EVENT>, as it were, a magnifying glass over the character and of course things you could <EVENT class="REPORTING" eid="e22">say</EVENT> are slightly <EVENT class="OCCURRENCE" eid="e23">exaggerated</EVENT>, but that's the wont of Hollywood and that's what <EVENT class="OCCURRENCE" eid="e24">makes</EVENT> these blockbusters successful, " John Riley, Assistant Curator of the Sherlock Holmes Museum <EVENT class="REPORTING" eid="e25">said</EVENT>.
+" So any new perspective, any new angle always just <EVENT class="OCCURRENCE" eid="e26">helps</EVENT> to <EVENT class="OCCURRENCE" eid="e27">perpetuate</EVENT> the legend of Sherlock Holmes.
+And that indirectly will obviously <EVENT class="OCCURRENCE" eid="e28">benefit</EVENT> the museum. "
+About 70,000 visitors <TIMEX3 tid="t2" type="DURATION" value="">a year</TIMEX3> stop by the Victorian lodging house, though officials are <EVENT class="I_STATE" eid="e29">expecting</EVENT> a spike of interest <EVENT class="OCCURRENCE" eid="e30">fueled</EVENT> by the new movie.
+While thousands of tourists <EVENT class="OCCURRENCE" eid="e31">flock</EVENT> to <EVENT class="OCCURRENCE" eid="e32">visit</EVENT> the museum, many of its visitors are unaware that Sherlock Holmes was actually not real person.
+" A few people do <EVENT class="I_STATE" eid="e33">think</EVENT> he is a real character, particularly with the tour of his house on'Baker Street' <EVENT class="OCCURRENCE" eid="e34">adding</EVENT> fuel to the fire so to speak, " Mark Di-Toro from Visit Britain <EVENT class="REPORTING" eid="e36">said</EVENT>.
+" That is just testament to Doyle's brilliant writing with his true to nature locations in the books <EVENT class="OCCURRENCE" eid="e37">meaning</EVENT> tourist can really <EVENT class="OCCURRENCE" eid="e38">relate</EVENT> and <EVENT class="OCCURRENCE" eid="e39">visit</EVENT> all the fantastic locations. "
+A. Pawlowski and Phil Han <EVENT class="OCCURRENCE" eid="e40">contributed</EVENT> to this report.
+</TEXT>
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei1" eventID="e1" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei2" eventID="e2" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE_PROGRESSIVE" eiid="ei3" eventID="e3" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei4" eventID="e4" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei5" eventID="e5" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei6" eventID="e6" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei7" eventID="e7" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei8" eventID="e8" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei9" eventID="e9" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei11" eventID="e11" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei12" eventID="e12" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei14" eventID="e14" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei15" eventID="e15" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei16" eventID="e16" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei17" eventID="e17" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei18" eventID="e18" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei19" eventID="e19" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei20" eventID="e20" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="PERFECTIVE" eiid="ei21" eventID="e21" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei22" eventID="e22" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei23" eventID="e23" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei24" eventID="e24" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei25" eventID="e25" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei26" eventID="e26" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei27" eventID="e27" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei28" eventID="e28" polarity="POS"  tense="FUTURE" />
+<MAKEINSTANCE aspect="PROGRESSIVE" eiid="ei29" eventID="e29" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei30" eventID="e30" polarity="POS"  tense="PASTPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei31" eventID="e31" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei32" eventID="e32" polarity="POS"  tense="INFINITIVE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei33" eventID="e33" polarity="POS"  tense="PRESENT" />
+<MAKEINSTANCE aspect="NONE" eiid="ei34" eventID="e34" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei36" eventID="e36" polarity="POS"  tense="PAST" />
+<MAKEINSTANCE aspect="NONE" eiid="ei37" eventID="e37" polarity="POS"  tense="PRESPART" />
+<MAKEINSTANCE aspect="NONE" eiid="ei38" eventID="e38" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei39" eventID="e39" polarity="POS"  tense="NONE" />
+<MAKEINSTANCE aspect="NONE" eiid="ei40" eventID="e40" polarity="POS"  tense="PAST" />
+</TimeML>

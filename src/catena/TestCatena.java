@@ -26,7 +26,7 @@ public class TestCatena {
 public static void main(String[] args) throws Exception {
 		
 		String task = "tbdense";
-		boolean colFilesAvailable = false;
+		boolean colFilesAvailable = true;
 		boolean train = false;
 		
 		switch(task) {
@@ -191,29 +191,29 @@ public static void main(String[] args) throws Exception {
 			"ed980111.1130.0089.tml" 
 		};
 			
-//		String[] testDocs = {
-//			"APW19980227.0489.tml",
-//			"APW19980227.0494.tml",
-//			"APW19980308.0201.tml",
-//			"APW19980418.0210.tml",
-//			"CNN19980126.1600.1104.tml",
-//			"CNN19980213.2130.0155.tml",
-//			"NYT19980402.0453.tml",
-//			"PRI19980115.2000.0186.tml",
-//			"PRI19980306.2000.1675.tml"
-//		};
 		String[] testDocs = {
-				"2010.01.01.iran.moussavi.tml",
-				"2010.01.02.pakistan.attacks.tml",
-				"2010.01.03.japan.jal.airlines.ft.tml",
-				"2010.01.06.tennis.qatar.federer.nadal.tml",
-				"2010.01.07.water.justice.tml",
-				"2010.01.07.winter.weather.tml",
-				"2010.01.12.uk.islamist.group.ban.tml",
-				"2010.01.13.haiti.un.mission.tml",
-				"2010.01.18.sherlock.holmes.tourism.london.tml",
-				"2010.01.18.uk.israel.livni.tml"
+			"APW19980227.0489.tml",
+			"APW19980227.0494.tml",
+			"APW19980308.0201.tml",
+			"APW19980418.0210.tml",
+			"CNN19980126.1600.1104.tml",
+			"CNN19980213.2130.0155.tml",
+			"NYT19980402.0453.tml",
+			"PRI19980115.2000.0186.tml",
+			"PRI19980306.2000.1675.tml"
 		};
+//		String[] testDocs = {
+//				"2010.01.01.iran.moussavi.tml",
+//				"2010.01.02.pakistan.attacks.tml",
+//				"2010.01.03.japan.jal.airlines.ft.tml",
+//				"2010.01.06.tennis.qatar.federer.nadal.tml",
+//				"2010.01.07.water.justice.tml",
+//				"2010.01.07.winter.weather.tml",
+//				"2010.01.12.uk.islamist.group.ban.tml",
+//				"2010.01.13.haiti.un.mission.tml",
+//				"2010.01.18.sherlock.holmes.tourism.london.tml",
+//				"2010.01.18.uk.israel.livni.tml"
+//		};
 		
 		String[] trainDocs = {
 			"APW19980219.0476.tml",
@@ -240,8 +240,8 @@ public static void main(String[] args) throws Exception {
 			"NYT19980206.0466.tml"
 		};
 		
-//		Map<String, Map<String, String>> tlinkPerFile = Temporal.getTimeBankDenseTlinks("./data/TimebankDense.T3.txt");
-		Map<String, Map<String, String>> tlinkPerFile = new HashMap<>();
+		Map<String, Map<String, String>> tlinkPerFile = Temporal.getTimeBankDenseTlinks("./data/TimebankDense.T3.txt");
+		//Map<String, Map<String, String>> tlinkPerFile = new HashMap<>();
 
 		String taskName = "tbdense";
 		Catena cat = new Catena(true, true);
@@ -256,7 +256,7 @@ public static void main(String[] args) throws Exception {
 		String[] te3CLabelCollapsed = {"BEFORE", "AFTER", "IDENTITY", "SIMULTANEOUS", 
 				"INCLUDES", "IS_INCLUDED", "BEGINS", "BEGUN_BY", "ENDS", "ENDED_BY"};
 		
-		Temporal temp = new Temporal(true, tbDenseLabel,
+		Temporal temp = new Temporal(false, tbDenseLabel,
 				"./models/" + taskName + "-event-dct.model",
 				"./models/" + taskName + "-event-timex.model",
 				"./models/" + taskName + "-event-event.model",
@@ -279,8 +279,8 @@ public static void main(String[] args) throws Exception {
 		relTypeMapping.put("ENDED_BY", "BEFORE");
 		relTypeMapping.put("DURING", "SIMULTANEOUS");
 		relTypeMapping.put("DURING_INV", "SIMULTANEOUS");
-		//List<TLINK> tlinks = temp.extractRelations(taskName, "./data/TempEval3-train_TML/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
-		List<TLINK> tlinks = temp.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
+		List<TLINK> tlinks = temp.extractRelations(taskName, "./data/TempEval3-train_TML/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
+		//List<TLINK> tlinks = temp.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, tlinkPerFile, tbDenseLabel, relTypeMapping, colFilesAvailable);
 
 		// ---------- CAUSAL ---------- //
 		
@@ -339,10 +339,10 @@ public static void main(String[] args) throws Exception {
 				tlinksForClinkPerFile.get(cols[0]).put(cols[2]+","+cols[1], TemporalRelation.getInverseRelation(label));
 			}
 			
-//			clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel,
-//					cat.isTlinkFeature(), tlinksForClinkPerFile, te3CLabelCollapsed, colFilesAvailable);
-			clinks = causal.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, causalLabel,
+			clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel,
 					cat.isTlinkFeature(), tlinksForClinkPerFile, te3CLabelCollapsed, colFilesAvailable);
+//			clinks = causal.extractRelations(taskName, "./data/quang_gold_temporal/", testDocs, causalLabel,
+//					cat.isTlinkFeature(), tlinksForClinkPerFile, te3CLabelCollapsed, colFilesAvailable);
 		} else {
 			clinks = causal.extractRelations(taskName, "./data/Causal-TimeBank_TML/", testDocs, causalLabel, colFilesAvailable);
 		}
@@ -386,7 +386,7 @@ public static void main(String[] args) throws Exception {
 		System.out.println("********** CLINK EVENT-EVENT ***********");
 		PairEvaluator peec = new PairEvaluator(clinks.getEE());
 		peec.evaluatePerLabel(causalLabel);
-		TestCatena.writeTlinks("./data/quang_gold_temporal/", Arrays.asList(testDocs), tlinks.get(1), "./data/quang_gold_temporal_catena_temporal_causal");
+		TestCatena.writeTlinks("./data/TempEval3-train_TML/", Arrays.asList(testDocs), tlinks.get(1), "./data/tbdense_catena_temporal_causal");
 	}
 
 	public static void writeTlinks(String foldername, TLINK tlinks, String outputFolder) throws ParserConfigurationException, IOException, SAXException, org.xml.sax.SAXException {
